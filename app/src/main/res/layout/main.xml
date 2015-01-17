@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gridchart" />
+
+        <com.coinport.chart.view.GridChart
+            android:id="@+id/gridchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linechart" />
+
+        <com.coinport.chart.view.LineChart
+            android:id="@+id/linechart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sliplinechart" />
+
+        <com.coinport.chart.view.SlipLineChart
+            android:id="@+id/sliplinechart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slipareachart" />
+
+        <com.coinport.chart.view.SlipAreaChart
+            android:id="@+id/slipareachart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slipbandchart" />
+
+        <com.coinport.chart.view.SlipBandAreaChart
+            android:id="@+id/slipbandchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stickchart" />
+
+        <com.coinport.chart.view.StickChart
+            android:id="@+id/stickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slipstickchart" />
+
+        <com.coinport.chart.view.SlipStickChart
+            android:id="@+id/slipstickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coloredslipstickchart" />
+
+        <com.coinport.chart.view.ColoredSlipStickChart
+            android:id="@+id/coloredslipstickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mastickchart" />
+
+        <com.coinport.chart.view.MAStickChart
+            android:id="@+id/mastickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maslipstickchart" />
+
+        <com.coinport.chart.view.MASlipStickChart
+            android:id="@+id/maslipstickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minusstickchart" />
+
+        <com.coinport.chart.view.MinusStickChart
+            android:id="@+id/minusstickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slipminusstickchart" />
+
+        <com.coinport.chart.view.SlipMinusStickChart
+            android:id="@+id/slipminusstickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/candlestickchart" />
+
+        <com.coinport.chart.view.CandleStickChart
+            android:id="@+id/candlestickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slipcandlestickchart" />
+
+        <com.coinport.chart.view.SlipCandleStickChart
+            android:id="@+id/slipcandlestickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/macandlestickchart" />
+
+        <com.coinport.chart.view.MACandleStickChart
+            android:id="@+id/macandlestickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maslipcandlestickchart" />
+
+        <com.coinport.chart.view.MASlipCandleStickChart
+            android:id="@+id/maslipcandlestickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bollmaslipcandlestickchart" />
+        
+        <com.coinport.chart.view.BOLLMASlipCandleStickChart
+            android:id="@+id/bollmaslipcandlestickchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/macdchart" />
+        
+        <com.coinport.chart.view.MACDChart
+            android:id="@+id/macdchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piechart" />
+
+        <com.coinport.chart.view.PieChart
+            android:id="@+id/piechart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rosechart" />
+
+        <com.coinport.chart.view.RoseChart
+            android:id="@+id/rosechart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spiderwebchart" />
+
+        <com.coinport.chart.view.SpiderWebChart
+            android:id="@+id/spiderwebchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radarchart" />
+
+        <com.coinport.chart.view.RadarChart
+            android:id="@+id/radarchart"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip" />
+        
+    </LinearLayout>
+
+</ScrollView>
